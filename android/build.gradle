@@ -20,6 +20,7 @@ def safeExtGet(prop, fallback) {
 
 android {
     compileSdkVersion safeExtGet('compileSdkVersion', 28)
+    namespace "ui.toasty"
 
     defaultConfig {
         minSdkVersion 16
